@@ -119,7 +119,6 @@
   background: var(--sage);
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .insp-text {
@@ -127,16 +126,22 @@
   flex-direction: column;
   align-items: center; /* Pour centrer horizontalement */
   justify-content: center; /* Pour centrer verticalement */
+  width: 50%;
 }
 
 .insp-img {
-  flex: 1; /* Prend 50% de la largeur */
-  display: flex;
-  justify-content: flex-end;
+  width: 50%;
+}
+
+.insp-img .insp-text {
+  flex: 1;
 }
 .insp-img img {
-  max-width: 800px; /* Pour s'adapter à la largeur de la div */
+  // max-width: none; /* Pour s'adapter à la largeur de la div */
   max-height: 300px; /* Pour s'adapter à la hauteur de la div */
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .serv {
@@ -152,13 +157,16 @@
   align-items: center; /* Pour centrer horizontalement */
   justify-content: center; /* Pour centrer verticalement */
 }
+// .serv-img {
+//   width: 50%;
+// }
 
-.serv-img {
+.serv-img .serv-text {
   flex: 1; /* Prend 50% de la largeur */
-  display: flex;
-  justify-content: flex-end;
 }
 .serv-img img {
-  max-width: 800px; /* Pour s'adapter à la largeur de la div */
   max-height: 300px; /* Pour s'adapter à la hauteur de la div */
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
