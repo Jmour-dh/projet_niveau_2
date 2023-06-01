@@ -14,38 +14,42 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="./inspiration.js"></script>
     <title>Inspiration</title>
   </head>
-  <header class="header">
-    <div class="nav-toggle">
-      <div class="nav-toggle-bar"></div>
-    </div>
-    <nav id="nav" class="nav">
-      <ul>
-        <h2 class="title">E.kea</h2>
-        <li><a href="./index.html">Accueil</a></li>
-        <li><a href="./inspiration.html" class="active">Inspiration</a></li>
-        <li><a href="./produits.html">Produits</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <h2 class="title">E.kea</h2>
-    <!-- <a href="./panier.html" class="panier">Panier</a> -->
-  </header>
-
-  <footer>
-    <div class="foot">
-      <p>Copyright &#9400; Dhia Eddine & Harry - 2023</p>
-      <ul>
-        <li>
-          <i class="fa-brands fa-facebook"></i>
-          <a href="#">E.kea</a>
-        </li>
-        <li>
-          <i class="fa-brands fa-instagram"></i>
-          <a href="#">E.kea</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+  <body>
+    <header class="header">
+      <nav>
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" id="close-button-id"
+            >&times;</a
+          >
+          <a href="./index.html">Accueil</a>
+          <a href="./inspiration.html" class="active">Inspiration</a>
+          <a href="./produits.html">Produits</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+        <button class="openbtn" id="some-button-id">&#9776;</button>
+      </nav>
+      <h2>E.kea</h2>
+      <a href="./panier.html" class="panier">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </a>
+    </header>
+    <footer>
+      <div class="foot">
+        <p>Copyright &#9400; Dhia Eddine & Harry - 2023</p>
+        <ul>
+          <li>
+            <i class="fa-brands fa-facebook"></i>
+            <a href="#">E.kea</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="#">E.kea</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

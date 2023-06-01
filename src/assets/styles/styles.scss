@@ -112,3 +112,39 @@ footer {
   text-decoration: none;
   color: var(--primary);
 }
+
+/* button */
+
+.active {
+  background: var(--sage);
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.btn-primary {
+  background: var(--ashgray);
+  color: white;
+  &:hover {
+    background: var(--resedagreen);
+    color: white;
+  }
+}
+
+.btn-secondray {
+  background: var(--ashgray);
+  color: white;
+  &:hover {
+    background: var(--sage);
+    color: white;
+  }
+}

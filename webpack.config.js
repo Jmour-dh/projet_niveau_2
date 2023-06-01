@@ -10,6 +10,7 @@ module.exports = {
     contact: path.join(__dirname, "src/contact/contact.js"),
     produits: path.join(__dirname, "src/produits/produits.js"),
     panier: path.join(__dirname, "src/panier/panier.js"),
+    services: path.join(__dirname, "src/serv/services.js"),
     topbar: path.join(__dirname, "src/assets/javascripts/topbar.js"),
   },
   output: {
@@ -63,6 +64,11 @@ module.exports = {
       filename: "panier.html",
       template: path.join(__dirname, "./src/panier/panier.html"),
       hunks: ["panier", "topbar"],
+    }),
+    new HtmlWebpackPlugin({
+      filename: "services.html",
+      template: path.join(__dirname, "./src/serv/services.html"),
+      hunks: ["services", "topbar"],
     }),
   ],
   stats: "minimal",
