@@ -1,22 +1,15 @@
 import "./inspiration.scss";
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img1 = document.getElementById("myImg1");
-var modalImg1 = document.getElementById("img01");
-var img2 = document.getElementById("myImg2");
-var modalImg2 = document.getElementById("img03");
-var captionText = document.getElementById("caption");
-img1.onclick = function () {
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+
+img.onclick = function () {
   modal.style.display = "block";
-  modalImg1.src = this.src;
-  captionText.innerHTML = this.alt;
-};
-img2.onclick = function () {
-  modal.style.display = "block";
-  modalImg2.src = this.src;
-  captionText.innerHTML = this.alt;
+  modalImg.src = this.src;
 };
 
 // Get the <span> element that closes the modal
