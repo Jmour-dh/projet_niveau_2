@@ -10,11 +10,43 @@
   display: none;
 }
 // s
-.mySlides img {
+
+#img1 {
+  background-image: url("./assets/images/header.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
   width: 100%;
+
   height: 400px;
-  object-fit: cover;
 }
+
+#img2 {
+  background-image: url("./assets/images/header_contact.jpeg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  width: 100%;
+
+  height: 400px;
+}
+
+#img3 {
+  background-image: url("./assets/images/header_produit.jpeg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  width: 100%;
+
+  height: 400px;
+}
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -133,10 +165,7 @@
   width: 50%;
 }
 
-.insp-img .insp-text {
-  flex: 1;
-}
-.insp-img img {
+.insp-img {
   // max-width: none; /* Pour s'adapter à la largeur de la div */
   max-height: 300px; /* Pour s'adapter à la hauteur de la div */
   object-fit: cover;
@@ -161,10 +190,10 @@
   width: 50%;
 }
 
-.serv-img .serv-text {
+.split {
   flex: 1; /* Prend 50% de la largeur */
 }
-.serv-img img {
+.serv-img {
   max-height: 300px; /* Pour s'adapter à la hauteur de la div */
   object-fit: cover;
   height: 100%;
