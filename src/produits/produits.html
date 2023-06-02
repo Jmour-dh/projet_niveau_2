@@ -4,13 +4,93 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/31095ebcdd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Produits</title>
+    <script src="./produits.js"></script>
   </head>
   <body>
-    <a href="./index.html">Accueil</a>
-    <a href="./inspiration.html">Inspiration</a>
-    <a href="./produits.html">Produits</a>
-    <a href="./contact.html">Contact</a>
-    <a href="./panier.html">Panier</a>
+    <header class="header">
+      <nav>
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" id="close-button-id"
+            >&times;</a
+          >
+          <a href="./index.html">Accueil</a>
+          <a href="./inspiration.html">Inspiration</a>
+          <a href="./produits.html" class="active">Produits</a>
+          <a href="./services.html">Nos services</a>
+          <a href="./contact.html">Nous Contacter</a>
+        </div>
+        <button class="openbtn" id="some-button-id">&#9776;</button>
+      </nav>
+      <h2>E.kea</h2>
+      <a href="./panier.html" class="panier">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </a>
+    </header>
+    <div class="carousel-container">
+      <div class="carousel">
+        <img src="../assets/images/header_produit.jpeg" alt="Image 2" />
+      </div>
+    </div>
+    <section class="produit">
+      <div class="produit-container">
+        <h2 class="title">PRODUITS</h2>
+        <div class="container">
+          <div class="dropdown">
+            <button id="myButton" class="dropbtn">Filtre</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Tous</a>
+              <a href="#">Confort</a>
+              <a href="#">Surface</a>
+              <a href="#">Décoration</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot">
+        <p>Copyright &#9400; Dhia Eddine & Harry - 2023</p>
+        <ul>
+          <li>
+            <i class="fa-brands fa-facebook"></i>
+            <a href="#">E.kea</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="#">E.kea</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown menu if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script> -->
   </body>
 </html>
