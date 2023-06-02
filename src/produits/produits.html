@@ -47,11 +47,50 @@
           <div class="dropdown">
             <button id="myButton" class="dropbtn">Filtre</button>
             <div id="myDropdown" class="dropdown-content">
-              <a href="#">Tous</a>
-              <a href="#">Confort</a>
-              <a href="#">Surface</a>
-              <a href="#">Décoration</a>
+              <a id="filterSelection-all" class="btn active">Tous</a>
+              <a id="filterSelection-confort" class="btn">Confort</a>
+              <a id="filterSelection-surface" class="btn">Surface</a>
+              <a id="filterSelection-decoration" class="btn">Décoration</a>
             </div>
+          </div>
+        </div>
+        <div class="produit-container-elem">
+          <div class="filterDiv-confort">
+            <h5>Confort</h5>
+            <ul class="produit">
+              <li>
+                <img src="../assets/images/cusine moderne1.jpg" />
+              </li>
+              <li>
+                <img src="../assets/images/cusine moderne1.jpg" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="produit-container-elem">
+          <div class="filterDiv-surface">
+            <h5>Surface</h5>
+            <ul class="produit">
+              <li>
+                <img src="../assets/images/cusine moderne1.jpg" />
+              </li>
+              <li>
+                <img src="../assets/images/cusine moderne1.jpg" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="produit-container-elem">
+          <div class="filterDiv-decoration">
+            <h5>Décoration</h5>
+            <ul class="produit">
+              <li>
+                <img src="../assets/images/cusine moderne1.jpg" />
+              </li>
+              <li>
+                <img src="../assets/images/cusine moderne1.jpg" />
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -72,25 +111,5 @@
         </ul>
       </div>
     </footer>
-
-    <!-- <script>
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-
-      // Close the dropdown menu if the user clicks outside of it
-      window.onclick = function (event) {
-        if (!event.target.matches(".dropbtn")) {
-          var dropdowns = document.getElementsByClassName("dropdown-content");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains("show")) {
-              openDropdown.classList.remove("show");
-            }
-          }
-        }
-      };
-    </script> -->
   </body>
 </html>

@@ -47,6 +47,7 @@
   background-color: var(--resedagreen);
   min-width: 200px;
   z-index: 1;
+  border-radius: 0 0 15px 15px;
 }
 
 /* Links inside the dropdown */
@@ -68,3 +69,39 @@
 }
 
 /*Produis*/
+
+.produit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filterDiv-confort,
+.filterDiv-surface {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.produit {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.produit li {
+  margin-right: 10px;
+}
