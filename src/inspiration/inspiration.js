@@ -78,3 +78,43 @@ var span4 = document.getElementsByClassName("close")[3];
 span4.onclick = function () {
   modal04.style.display = "none";
 };
+
+var modal05 = document.getElementById("myModal05");
+
+var img05 = document.getElementById("myImg05");
+var modalImg05 = document.getElementById("img05");
+
+img05.onclick = function () {
+  modal05.style.display = "block";
+  modalImg05.src = this.src;
+};
+
+// Get the <span> element that closes the modal
+
+var span5 = document.getElementsByClassName("close")[4];
+
+// When the user clicks on <span> (x), close the modal
+
+span5.onclick = function () {
+  modal05.style.display = "none";
+};
+
+var modal06 = document.getElementById("myModal06");
+
+var img06 = document.getElementById("myImg06");
+var modalImg06 = document.getElementById("img06");
+
+img06.onclick = function () {
+  modal06.style.display = "block";
+  modalImg06.src = this.src;
+};
+
+// Get the <span> element that closes the modal
+
+var span6 = document.getElementsByClassName("close")[5];
+
+// When the user clicks on <span> (x), close the modal
+
+span6.onclick = function () {
+  modal06.style.display = "none";
+};
