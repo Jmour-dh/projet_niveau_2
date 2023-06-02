@@ -58,3 +58,23 @@ var span3 = document.getElementsByClassName("close")[2];
 span3.onclick = function () {
   modal03.style.display = "none";
 };
+
+var modal04 = document.getElementById("myModal04");
+
+var img04 = document.getElementById("myImg04");
+var modalImg04 = document.getElementById("img04");
+
+img04.onclick = function () {
+  modal04.style.display = "block";
+  modalImg04.src = this.src;
+};
+
+// Get the <span> element that closes the modal
+
+var span4 = document.getElementsByClassName("close")[3];
+
+// When the user clicks on <span> (x), close the modal
+
+span4.onclick = function () {
+  modal04.style.display = "none";
+};
