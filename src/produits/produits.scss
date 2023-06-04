@@ -1,3 +1,5 @@
+@import "../assets/styles/media-queries";
+
 .carousel-container {
   width: 100%;
   max-width: 2500px; /* Adjust as needed */
@@ -74,7 +76,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
@@ -85,14 +86,14 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
 }
 
 .filterDiv-confort,
-.filterDiv-surface {
+.filterDiv-surface,
+.filterDiv-decoration {
   text-align: center;
-  margin-right: 20px;
+  flex: 1;
+  margin: 100px;
 }
 
 .produit {
@@ -100,8 +101,121 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .produit li {
   margin-right: 10px;
+}
+
+.produit ul li {
+  margin: 50px;
+}
+
+.produit-container-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filterDiv-confort ul,
+.filterDiv-surface ul,
+.filterDiv-decoration ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+.filterDiv-confort ul li,
+.filterDiv-surface ul li,
+.filterDiv-decoration ul li {
+  margin-right: 10px;
+}
+
+.produit-filter {
+  display: flex;
+  @include xs {
+    display: block;
+  }
+}
+
+/* description */
+
+.description {
+  background-color: white;
+}
+
+.description-modal {
+  display: flex;
+  align-items: center;
+}
+.modal-produit {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content-produit {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+}
+
+.modal-content-produit,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.test {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  @include xs {
+    display: block;
+  }
+}
+
+#img01 {
+  flex-grow: 0;
+  flex-basis: 70%;
+}
+
+.description {
+  flex-grow: 1;
+  top: 80%;
+  height: 36.5%;
+}
+
+.description-text {
+  position: relative;
+  top: 15%;
 }

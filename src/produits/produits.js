@@ -1,9 +1,16 @@
 import "./produits.scss";
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
 function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  var dropdown = document.getElementById("myDropdown");
+  dropdown.classList.toggle("show");
+
+  // Ajouter ou supprimer la classe "hover" en fonction de l'état du dropdown
+  var btn = document.getElementById("myButton");
+  if (dropdown.classList.contains("show")) {
+    btn.classList.add("hover");
+  } else {
+    btn.classList.remove("hover");
+  }
 }
 
 var btn = document.querySelector("#myButton");
@@ -20,6 +27,10 @@ window.onclick = function (event) {
         openDropdown.classList.remove("show");
       }
     }
+
+    // Supprimer la classe "hover" lors du clic en dehors du bouton
+    var btn = document.getElementById("myButton");
+    btn.classList.remove("hover");
   }
 };
 
@@ -71,3 +82,21 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+/* zoom*/
+
+var modal = document.getElementById("myModal");
+
+var img01 = document.getElementById("myImg01");
+var modalImg01 = document.getElementById("img01");
+
+img01.onclick = function () {
+  modal.style.display = "block";
+  modalImg01.src = this.src;
+};
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};

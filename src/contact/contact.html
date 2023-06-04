@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/31095ebcdd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./contact.js"></script>
     <title>Contact</title>
   </head>
   <body>
@@ -32,6 +37,144 @@
         <i class="fa-solid fa-cart-shopping"></i>
       </a>
     </header>
+    <section>
+      <div class="produit-container">
+        <h2 class="title">PRODUITS</h2>
+        <div class="container">
+          <div class="dropdown">
+            <button id="myButton" class="dropbtn">Filtre</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a id="filterSelection-all" class="btn active">Tous</a>
+              <a id="filterSelection-confort" class="btn">Confort</a>
+              <a id="filterSelection-surface" class="btn">Surface</a>
+              <a id="filterSelection-decoration" class="btn">Décoration</a>
+            </div>
+          </div>
+        </div>
+        <div class="produit-container-elem">
+          <div class="filterDiv-confort">
+            <h5>Confort</h5>
+            <ul class="produit">
+              <li>
+                <div class="produits-descrip">
+                  <!-- Trigger the Modal -->
+                  <img
+                    id="myImg"
+                    src="../assets/images/chambre1.jpg"
+                    style="width: 100%; max-width: 300px"
+                  />
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <div class="test">
+                      <div class="test2">
+                        <img class="modal-content" id="img01" />
+                      </div>
+                      <!-- Modal Caption (Image Text) -->
+                      <div id="caption" class="test3">
+                        <div id="product-description">
+                          <div class="description-text"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="produits-descrip">
+                  <!-- Trigger the Modal -->
+                  <img
+                    id="myImg02"
+                    src="../assets/images/salon1.jpg"
+                    style="width: 100%; max-width: 300px"
+                  />
+
+                  <!-- The Modal -->
+                  <div id="myModal02" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img02" />
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption02">
+                      <div id="product-description02">
+                        <div class="description-text"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="produit-container-elem">
+          <div class="filterDiv-surface">
+            <h5>Surface</h5>
+            <ul class="produit">
+              <li>
+                <div class="produits-descrip">
+                  <!-- Trigger the Modal -->
+                  <img
+                    id="myImg"
+                    src="../assets/images/chambre1.jpg"
+                    style="width: 100%; max-width: 300px"
+                  />
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01" />
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption">
+                      <div id="product-description">
+                        <div class="description-text"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="produits-descrip">
+                  <!-- Trigger the Modal -->
+                  <img
+                    id="myImg"
+                    src="../assets/images/chambre1.jpg"
+                    style="width: 100%; max-width: 300px"
+                  />
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01" />
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption">
+                      <div id="product-description">
+                        <div class="description-text"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="foot">
         <p>Copyright &#9400; Dhia Eddine & Harry - 2023</p>
