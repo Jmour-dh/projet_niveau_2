@@ -1,4 +1,5 @@
 import "./contact.scss";
+import "../assets/styles/styles.scss";
 
 // Get the modal
 var modal = document.getElementById("myModal");

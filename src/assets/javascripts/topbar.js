@@ -1,3 +1,4 @@
+
 /* Set the width of the sidebar to 250px (show it) */
 var button = document.querySelector("#some-button-id");
 button.addEventListener("click", function () {

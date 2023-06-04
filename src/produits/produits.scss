@@ -65,11 +65,88 @@
   background-color: var(--sage);
 }
 
+/* images*/
+
+#myImg01 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg01:hover {
+  opacity: 0.7;
+}
+
+#myImg02 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg02:hover {
+  opacity: 0.7;
+}
+
+#myImg03 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg03:hover {
+  opacity: 0.7;
+}
+
+#myImg04 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg04:hover {
+  opacity: 0.7;
+}
+
+#myImg05 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg05:hover {
+  opacity: 0.7;
+}
+
+#myImg06 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg06:hover {
+  opacity: 0.7;
+}
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
   display: block;
 }
 
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
 /*Produis*/
 
 .produit-container {
@@ -177,8 +254,33 @@
   max-width: 700px;
 }
 
-.modal-content-produit,
-#caption {
+.modal-content,
+#caption01 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption02 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption03 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption04 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption05 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption06 {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
@@ -192,30 +294,34 @@
   }
 }
 
-.test {
+.product-details {
   display: flex;
-  height: 100%;
-  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
   justify-content: center;
-  align-items: center;
-  position: relative;
-  @include xs {
-    display: block;
-  }
 }
 
-#img01 {
-  flex-grow: 0;
-  flex-basis: 70%;
+.image-container {
+  flex: 1;
+  max-width: 50%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
 }
 
 .description {
-  flex-grow: 1;
-  top: 80%;
-  height: 36.5%;
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  max-width: 20%;
+  position: relative;
+  top: 40%;
 }
 
 .description-text {
+  text-align: center;
   position: relative;
-  top: 15%;
+  top: 40%;
 }
