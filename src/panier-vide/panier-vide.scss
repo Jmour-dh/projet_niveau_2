@@ -1,0 +1,48 @@
+.paniervide-paiement {
+  background-color: var(--ashgray);
+}
+
+.paniervide-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0 30px;
+  margin-bottom: 0;
+}
+
+.non-valider {
+  display: flex;
+  justify-content: end;
+  margin-right: 1%;
+}
+
+.panier-vide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh; /* Ajustez la hauteur selon vos besoins */
+}
+
+.panier-vide .panier-vide-img {
+  font-size: 4rem; /* Ajustez la taille de l'icône selon vos besoins */
+}
+
+.title-panier-vide {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  a {
+    margin: 30px;
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+.btn-paniervide {
+  background: var(--resedagreen);
+  color: white;
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
