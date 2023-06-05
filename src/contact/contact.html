@@ -37,143 +37,44 @@
         <i class="fa-solid fa-cart-shopping"></i>
       </a>
     </header>
-    <section>
-      <div class="produit-container">
-        <h2 class="title">PRODUITS</h2>
-        <div class="container">
-          <div class="dropdown">
-            <button id="myButton" class="dropbtn">Filtre</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a id="filterSelection-all" class="btn active">Tous</a>
-              <a id="filterSelection-confort" class="btn">Confort</a>
-              <a id="filterSelection-surface" class="btn">Surface</a>
-              <a id="filterSelection-decoration" class="btn">Décoration</a>
-            </div>
-          </div>
-        </div>
-        <div class="produit-container-elem">
-          <div class="filterDiv-confort">
-            <h5>Confort</h5>
-            <ul class="produit">
-              <li>
-                <div class="produits-descrip">
-                  <!-- Trigger the Modal -->
-                  <img
-                    id="myImg"
-                    src="../assets/images/chambre1.jpg"
-                    style="width: 100%; max-width: 300px"
-                  />
+  </section>
 
-                  <!-- The Modal -->
-                  <div id="myModal" class="modal">
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
+  <section class="contact"><div class="contact-form-container">
+      <form action="#">
+          <h1>Nous contacter</h1>
+      <h3>Une question? un problème? N'hésiter pas à nous envoyer un message</h3>
+      <label for="name">Nom:</label>
+      <input type="text" name="name" id="name">
+      </form>
+      <form action="#">
+          <label for="name">Email:</label>
+          <input type="email" name="email" id="email">
+      </form>
 
-                    <!-- Modal Content (The Image) -->
-                    <div class="test">
-                      <div class="test2">
-                        <img class="modal-content" id="img01" />
-                      </div>
-                      <!-- Modal Caption (Image Text) -->
-                      <div id="caption" class="test3">
-                        <div id="product-description">
-                          <div class="description-text"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="produits-descrip">
-                  <!-- Trigger the Modal -->
-                  <img
-                    id="myImg02"
-                    src="../assets/images/salon1.jpg"
-                    style="width: 100%; max-width: 300px"
-                  />
-
-                  <!-- The Modal -->
-                  <div id="myModal02" class="modal">
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img02" />
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption02">
-                      <div id="product-description02">
-                        <div class="description-text"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="produit-container-elem">
-          <div class="filterDiv-surface">
-            <h5>Surface</h5>
-            <ul class="produit">
-              <li>
-                <div class="produits-descrip">
-                  <!-- Trigger the Modal -->
-                  <img
-                    id="myImg"
-                    src="../assets/images/chambre1.jpg"
-                    style="width: 100%; max-width: 300px"
-                  />
-
-                  <!-- The Modal -->
-                  <div id="myModal" class="modal">
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01" />
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption">
-                      <div id="product-description">
-                        <div class="description-text"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="produits-descrip">
-                  <!-- Trigger the Modal -->
-                  <img
-                    id="myImg"
-                    src="../assets/images/chambre1.jpg"
-                    style="width: 100%; max-width: 300px"
-                  />
-
-                  <!-- The Modal -->
-                  <div id="myModal" class="modal">
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01" />
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption">
-                      <div id="product-description">
-                        <div class="description-text"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <form action="#">
+          <label for="name">Sujet:</label>
+          <input type="text" name="name" id="name">
+      </form>
+      <form action="#">
+          <label for="name"></label>
+          <h5>Message:</h5>
+          <textarea name="" id="" cols="70" rows="10"></textarea>
+      </form>
+  
+  </div></section>
+ <div class="message12">
+ <button id="msg">envoyer mon message</button>
+</div>
+  <div class="map1" >
+      <p class="text1" >Adresse</p>
+      <p class="text2" >120 rue des Chantilly</p>
+      <p class="text3">Téléphone:</p>
+      <p class="text4">01.23.45.56.78</p>
+      <div id=map>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.9402014355765!2d2.344481875721067!3d48.878416499297934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e6a8f42f481%3A0x4b2b28fd8965c594!2sRue%20de%20Chantilly%2C%2075009%20Paris!5e0!3m2!1sfr!2sfr!4v1685647241523!5m2!1sfr!2sfr" width="483" height="436" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-    </section>
+  </div>
+  </div>
 
     <footer>
       <div class="foot">
