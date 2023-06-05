@@ -10,6 +10,7 @@ module.exports = {
     contact: path.join(__dirname, "src/contact/contact.js"),
     produits: path.join(__dirname, "src/produits/produits.js"),
     panier: path.join(__dirname, "src/panier/panier.js"),
+    panierVide: path.join(__dirname, "src/panier-vide/panier-vide.js"),
     services: path.join(__dirname, "src/serv/services.js"),
     topbar: path.join(__dirname, "src/assets/javascripts/topbar.js"),
     topbarStyles: path.join(__dirname, "src/assets/styles/styles.scss"),
@@ -18,6 +19,7 @@ module.exports = {
     contactStyles: path.join(__dirname, "src/contact/contact.scss"),
     produitsStyles: path.join(__dirname, "src/produits/produits.scss"),
     panierStyles: path.join(__dirname, "src/panier/panier.scss"),
+    panierVideStyles: path.join(__dirname, "src/panier-vide/panier-vide.scss"),
     servicesStyles: path.join(__dirname, "src/serv/services.scss"),
   },
   output: {
@@ -71,6 +73,11 @@ module.exports = {
       filename: "panier.html",
       template: path.join(__dirname, "./src/panier/panier.html"),
       chunks: ["panier", "topbar", "panierStyles"],
+    }),
+    new HtmlWebpackPlugin({
+      filename: "panier-vide.html",
+      template: path.join(__dirname, "./src/panier-vide/panier-vide.html"),
+      chunks: ["panier", "topbar", "panierVideStyles"],
     }),
     new HtmlWebpackPlugin({
       filename: "services.html",

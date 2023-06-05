@@ -1,11 +1,81 @@
+.panier-container{
+  max-height: 100%;
+
+}
 .bloc1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
   a {
     margin: 30px;
     color: black;
-    text-decoration:underline ;
+    text-decoration: underline;
   }
 }
+
+#myImg01 {
+  width: 100%;
+  max-width: 300px;
+}
+#myImg01 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.img-zoom {
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.img-panier {
+  display: flex;
+  align-items: center;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+
+.img-title {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.qte {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.prix {
+  display: flex;
+}
+
+
+/* bloc total */
+
+.panier-paiement {
+  background-color: var(--ashgray);
+  margin-top: 15%;
+  
+}
+
+.valider {
+  display: flex;
+  justify-content: end;
+  margin-right: 1%;
+}
+
+.panier-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 30px;
+  margin-bottom: 0;
+}
+
