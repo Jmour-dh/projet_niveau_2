@@ -12,6 +12,7 @@ module.exports = {
     panier: path.join(__dirname, "src/panier/panier.js"),
     panierVide: path.join(__dirname, "src/panier-vide/panier-vide.js"),
     services: path.join(__dirname, "src/serv/services.js"),
+    chargement: path.join(__dirname, "src/chargement/chargement.js"),
     topbar: path.join(__dirname, "src/assets/javascripts/topbar.js"),
     topbarStyles: path.join(__dirname, "src/assets/styles/styles.scss"),
     mainStyles: path.join(__dirname, "src/index.scss"),
@@ -21,6 +22,7 @@ module.exports = {
     panierStyles: path.join(__dirname, "src/panier/panier.scss"),
     panierVideStyles: path.join(__dirname, "src/panier-vide/panier-vide.scss"),
     servicesStyles: path.join(__dirname, "src/serv/services.scss"),
+    chargementStyles: path.join(__dirname, "src/chargement/chargement.scss"),
   },
   output: {
     path: path.join(__dirname, "dist"),
@@ -77,12 +79,17 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "panier-vide.html",
       template: path.join(__dirname, "./src/panier-vide/panier-vide.html"),
-      chunks: ["panier", "topbar", "panierVideStyles"],
+      chunks: ["panierVide", "topbar", "panierVideStyles"],
     }),
     new HtmlWebpackPlugin({
       filename: "services.html",
       template: path.join(__dirname, "./src/serv/services.html"),
-chunks: ["services", "topbar", "servicesStyles"],
+      chunks: ["services", "topbar", "servicesStyles"],
+    }),
+    new HtmlWebpackPlugin({
+      filename: "chargement.html",
+      template: path.join(__dirname, "./src/chargement/chargement.html"),
+      chunks: ["chargement", "topbar", "chargementStyles"],
     }),
   ],
   stats: "minimal",

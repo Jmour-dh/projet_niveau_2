@@ -5,5 +5,5 @@ document.getElementById("valider-panier").addEventListener("click", function(eve
   event.preventDefault(); // Empêche le comportement par défaut du lien
 
   alert("Votre panier a bien été validé.");
-  window.location.href = "./index.html"; // Redirige vers la page index.html
+  window.location.href = "./chargement.html"; // Redirige vers la page chargement.html
 });
