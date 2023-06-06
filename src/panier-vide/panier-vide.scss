@@ -1,3 +1,5 @@
+@import "../assets/styles/media-queries";
+
 .paniervide-paiement {
   background-color: var(--ashgray);
 }
@@ -8,12 +10,41 @@
   padding: 30px;
   margin: 0 30px;
   margin-bottom: 0;
+  @include xs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      padding: 10px;
+    }
+    
+  }
+  @include sm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      padding: 10px;
+    }
+    
+  }
 }
 
 .non-valider {
   display: flex;
   justify-content: end;
   margin-right: 1%;
+  @include xs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  @include sm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .panier-vide {
@@ -21,6 +52,13 @@
   justify-content: center;
   align-items: center;
   height: 75vh; /* Ajustez la hauteur selon vos besoins */
+  @include xs {
+    flex-direction: column;
+  }
+  @include sm {
+    flex-direction: column;
+  }
+  
 }
 
 .panier-vide .panier-vide-img {

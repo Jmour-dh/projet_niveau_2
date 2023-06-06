@@ -1,3 +1,6 @@
+@import "../assets/styles/media-queries";
+
+
 .panier-container{
   max-height: 100%;
 
@@ -13,6 +16,7 @@
     color: black;
     text-decoration: underline;
   }
+ 
 }
 
 #myImg01 {
@@ -37,6 +41,16 @@
   align-items: center;
   margin: 0 10%;
   justify-content: space-between;
+  @include xs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @include sm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .img-title {
@@ -62,6 +76,14 @@
 .panier-paiement {
   background-color: var(--ashgray);
   margin-top: 15%;
+  @include xs {
+    display: flex;
+    flex-direction: column;
+  }
+  @include sm {
+    display: flex;
+    flex-direction: column;
+  }
   
 }
 
@@ -69,6 +91,16 @@
   display: flex;
   justify-content: end;
   margin-right: 1%;
+  @include xs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @include sm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .panier-total {
@@ -77,5 +109,21 @@
   padding: 30px;
   margin: 30px;
   margin-bottom: 0;
+  @include xs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      margin: 20px;
+    }
+  }
+  @include sm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      margin: 20px;
+    }
+  }
 }
 

@@ -190,11 +190,14 @@
   margin: 50px;
 }
 
+
 .produit-container-elem {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+ 
+ 
 }
 
 .filterDiv-confort ul,
@@ -207,12 +210,14 @@
   margin: 0;
   padding: 0;
   flex-direction: column;
+  
 }
 
 .filterDiv-confort ul li,
 .filterDiv-surface ul li,
 .filterDiv-decoration ul li {
   margin-right: 10px;
+  
 }
 
 .produit-filter {
@@ -220,17 +225,26 @@
   @include xs {
     display: block;
   }
+  @include sm {
+    display: block;
+  }
+  
 }
 
 /* description */
 
 .description {
   background-color: white;
+  
 }
 
 .description-modal {
   display: flex;
   align-items: center;
+  @include xs {
+   flex-direction: column;
+   justify-content: center;
+  }
 }
 .modal-produit {
   display: none; /* Hidden by default */
@@ -299,6 +313,14 @@
   margin-left: 10%;
   margin-right: 10%;
   justify-content: center;
+  @include xs {
+    flex-direction: column;
+    align-items: center;
+  }
+  @include sm {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .image-container {

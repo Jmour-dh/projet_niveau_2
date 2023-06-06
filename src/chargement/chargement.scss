@@ -1,9 +1,12 @@
+@import "../assets/styles/media-queries";
+
 .chargement {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 90vh;
   flex-direction: column;
+  align-items: center;
 }
 
 .loader {
@@ -29,4 +32,6 @@
 .affichage {
   padding: 30px;
   font-size: 3rem;
+  text-align: center;
+
 }
