@@ -14,8 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <script src="./panier.js"></script>
-    <title>Panier</title>
+    <script src="./panier-vide.js"></script>
+    <title>Panier-vide</title>
   </head>
   <body>
     <header class="header">
@@ -37,41 +37,30 @@
         <i class="fa-solid fa-cart-shopping"></i>
       </a>
     </header>
-    <section class="panier-container">
-      <div class="bloc1">
-        <h3 class="title">Panier</h3>
-        <a href="./index.html" class="title my-10">Continuer vos achats >></a>
-      </div>
-      <div class="img-panier">
-        <div class="img-zoom">
-          <img id="myImg01" src="../assets/images/confort_12.jpg" />
-          
+    <section class="paniervide-container">
+      <div class="panier-vide">
+        <div class="panier-vide-img">
+          <i class="fa-solid fa-cart-shopping fa-2xl"></i>
         </div>
-          <div class="img-title">
-            <h5>Fauteuil Supra</h5>
-            <p>Fauteuil desgin en bois et tissu</p>
-          </div>
-          <div class="qte">
-            <i class="fa-solid fa-arrow-up"></i>
-            <p>1</p>
-            <i class="fa-solid fa-arrow-down"></i>
-          </div>
-          <div class="prix">
-            <p>100 €</p>
-          </div>
+        <div class="title-panier-vide">
+          <h3>Votre panier est vide ...!</h3>
+          <a href="./index.html" class="title my-10">Continuer vos achats >></a>
+        </div>
       </div>
-      <div class="panier-paiement">
-        <div class="panier-total">
+      <div class="paniervide-paiement">
+        <div class="paniervide-total">
           <p>total</p>
-          <p>100 €</p>
+          <p>€</p>
         </div>
-        <div class="valider">
-          <a href="./index.html" class="btn btn-panier my-10" id="valider-panier">Valider le panier</a>
+        <div class="non-valider">
+          <a
+            href="./index.html"
+            class="btn btn-paniervide my-10"
+            id="valider-panier1"
+            >Valider le panier</a
+          >
         </div>
-        
       </div>
-
-      
     </section>
     <footer>
       <div class="foot">

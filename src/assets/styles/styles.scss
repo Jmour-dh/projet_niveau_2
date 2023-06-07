@@ -87,7 +87,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: var(--ashgray);
+  background: var(--gray);
   color: white;
   padding: 13px;
   text-align: center;
@@ -136,6 +136,15 @@ footer {
   color: white;
   &:hover {
     background: var(--resedagreen);
+    color: white;
+  }
+}
+
+.btn-panier {
+  background: var(--resedagreen);
+  color: white;
+  &:hover {
+    background: var(--sage);
     color: white;
   }
 }

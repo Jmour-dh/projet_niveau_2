@@ -147,12 +147,21 @@
     width: 650px;
     text-align: center;
   }
+
+  @include xs {
+    p {
+      width: auto;
+    }
+  }
 }
 
 .insp {
   background: var(--sage);
   display: flex;
   align-items: center;
+  @include xs {
+    flex-direction: column;
+  }
 }
 
 .insp-text {
@@ -179,6 +188,10 @@
   background: var(--resedagreen);
   display: flex;
   align-items: center;
+  @include xs {
+    
+    flex-flow: column-reverse;
+  }
 }
 
 .serv-text {
