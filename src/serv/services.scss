@@ -63,6 +63,29 @@ h4{
     margin-bottom: 10px;
     position: relative;
   }
+
+  .image20{
+    width: 1362px;
+    display: flex;
+    animation-duration: 10s;
+    animation-name: lesdeuximages;
+    animation-iteration-count: infinite;
+    overflow: auto;
+    border: 2px;
+}
+@keyframes lesdeuximages{
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(-1362px);
+    }
+    100%{
+        transform: translate(0);
+    }
+
+}
+
   .mode2{
     font-size: 20px;
     margin-bottom: 5%;
@@ -94,17 +117,27 @@ h4{
     display: flex;
     align-items: center;
 }
-.banque{
-    font-size: 15px;
+.paiement1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  margin-right: 5%;
+  
 }
-.alert{
-    margin-left: 10px;
-    margin-right: 5px;
-    height: 30px;
-    
+.booke{
+  padding-right: 40%;
+  text-align: left;
+  margin-left: 30px;
+  padding-left: 20%;
 }
-.carte{
-    margin-left: 50%;
-    
+
+.formation{
+  display: flex;
+  padding-left: 20%;
+  background-color: #C7815C;
 }
+
+
+
+
 
