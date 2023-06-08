@@ -99,7 +99,7 @@ module.exports = {
     open: false,
     static: path.resolve(__dirname, "./dist"),
     watchFiles: ["./src/**"],
-    port: 3000,
+    port: 4000,
     hot: true,
   },
 };
