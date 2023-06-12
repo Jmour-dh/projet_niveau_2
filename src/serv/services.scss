@@ -24,35 +24,55 @@ h4{
 }
 
 
-.mission1 {
-    background-color: #C7815C;
-    padding: 10px;
-  }
-  
-  .titremission1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .titre1{
-    margin-right: 20px;
-    font-size: 15px;
-  }
- 
-   
-  .image3{
-    text-align: left;
-  }
-  
- 
- 
-  
-  .livraison1 {
-    margin-top: 20px;
-    position: relative;
-    height: 40%;
-  }
+#option {
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: var(--bleu-secondaire);
+  margin-bottom: 55px;
+ }
+
+
+ .button-mode {
+  display: flex;
+  width: 100%;
+
+
+}
+
+.button-mode button {
+  width: 100%;
+  padding: 1em;
+}
+
+#button-mode div {
+  width: 100%;
+}
+
+
+#w2-bar-item {
+  background-color: #A76F51;
+  color: var(--bleu-tertiaire);
+  border: none;
+  cursor: pointer;
+
+}
+
+#nw2-bar-item {
+  background-color: #A76F51;
+  color: var(--couleur-police);
+  border: none;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
   
   ul {
     padding: 0;

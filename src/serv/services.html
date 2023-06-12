@@ -37,31 +37,88 @@
 
     <img src="../assets/images/header_contact (1).jpeg" alt="">
     <h3>Nos services</h3>
-    <div class="services2">
-    <h4>Nos services de livraison</h4> <h5 class="mode">Nos mode de paiment</h5>
-    </div>
-
-
-    <div class="mission1">
-      <div class="titremission1">
-        <h6 class="titre1">Petit colis : Chronopost</h6>
-        
-        <div class="image3">
-          <img src="../assets/images/img-services1.jpeg" alt="">
-        </div>
-        
-      </div>
-      
-      <div class="livraison1">
-        <h8>Livraison domicile par transporteur :</h8>
-        <ul>
-          <li>39€ pour un achat inférieur à 400€</li>
-          <li>59€ pour un achat supérieur à 400€ et inférieur à 1000€</li>
-          <li>109€ pour un achat supérieur à 1000€</li>
-        </ul>
-      </div>
-    </div>
     
+
+
+    <section class="option">
+
+
+
+      <div id="nos-services" class="Mode">
+
+          <div class="button-mode">
+
+              <div>
+                  <button class="nw2-bar-item w2-button " onclick="openMode('nos-services')">Nos
+                      services de livraison
+                  </button>
+              </div>
+
+              <div>
+                  <button class="w2-bar-item w2-button " onclick="openMode('nos-modes' )">Nos
+                      modes de paiement
+                  </button>
+              </div>
+
+          </div>
+
+          <div class="livraison">
+
+              <div class="text-livraison">
+                  <h3>Petits colis:</h3>
+                  <p>
+                      Chronopost (articles de moins de 12,5kg)9.90 €
+                  </p>
+                  <h3>Livraison domicile par transporteur :</h3>
+                  <p>
+                      9€ pour un achat inférieur à 400€
+                  </p>
+                  <p>
+                      59€ pour un achat​​ supérieur à 400€ et inférieur à 1000€
+                  </p>
+                  <p>
+                      109€ pour un achat supérieur à 1000€
+                  </p>
+              </div>
+
+              <div class="picture">
+
+                  <img src="images/services-camion.jpeg">
+
+              </div>
+
+
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div id="caroussel">
       <div class="image2" >
@@ -69,8 +126,12 @@
           <div class="image2"></div><img src="../assets/images/header_contact (1).jpeg" alt="burger2"></div>
       </div>
   </div>
+
+
+
+
     
-  <h4 class="title mode1">Nos services</h4>
+  <h4 class="title mode1" style="background-color: white;" >Nos services</h4>
   <!-- Tab links -->
   <div class="tab">
     <button class="tablinks btnliv" id="livraison" onclick="openTab('livraison-content')">
@@ -89,9 +150,9 @@
           <div class="test">
             <p>Paiement par carte bancaire</p>
             <div class="icon">
-              <i class="fa-solid fa-credit-card icon"></i>
-              <i class="fa-brands fa-cc-mastercard"> </i>
-              <i class="fa-brands fa-cc-visa"></i>
+              <i class="fa-solid fa-credit-card icon" style="font-size:48px"></i>
+              <i class="fa-brands fa-cc-mastercard" style="font-size:48px" ></i>
+              <i class="fa-brands fa-cc-visa" style="font-size:48px" ></i>
             </div>
           </div>
           <div class="test">
@@ -113,45 +174,7 @@
       
       <img src="../assets/images/markus-winkler-ahjzVINkuCs-unsplash.jpg" >
     </div>
-  
     
-     
-  
-///++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/////
-
-  <div id="paiement-content" class="tabcontent">
-    <div class="items">
-      <div class="container">
-        <div class="test">
-          <p>Paiement par carte bancaire</p>
-          <div class="icon">
-            <i class="fa-solid fa-credit-card icon"></i>
-            <i class="fa-brands fa-cc-mastercard"> </i>
-            <i class="fa-brands fa-cc-visa"></i>
-          </div>
-        </div>
-        <div class="test">
-          <p>Paiement par carte bancaire</p>
-          <div class="icon">
-            <i class="fa-solid fa-credit-card icon"></i>
-            <i class="fa-brands fa-cc-mastercard"> </i>
-            <i class="fa-brands fa-cc-visa"></i>
-          </div>
-        </div>
-        <div class="test">
-          <p>Paiement par carte bancaire</p>
-          <div class="icon">
-            <i class="fa-solid fa-credit-card icon"></i>
-            <i class="fa-brands fa-cc-mastercard"> </i>
-            <i class="fa-brands fa-cc-visa"></i>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    
-    <img src="../assets/images/markus-winkler-ahjzVINkuCs-unsplash.jpg" >
-  </div>
 
 
 
@@ -161,7 +184,7 @@
 
 
 
-    
+
     <footer>
       <div class="foot">
         <p>Copyright &#9400; Dhia Eddine & Harry - 2023</p>
@@ -178,6 +201,20 @@
       </div>
     </footer>
   </body>
+  <script>
+    function openMode(ModeName) {
+
+var i;
+
+var x = document.getElementsByClassName("Mode");
+
+for (i = 0; i < x.length; i++) {
+  x[i].style.display = "none";
+}
+document.getElementById(ModeName).style.display = "block";
+
+}
+  </script>
 </html>
 
 
