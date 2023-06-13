@@ -1,110 +1,284 @@
-h3{
-    font-size: 20px;
-    margin-bottom: 5%;
-    text-align: center;
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
 }
-.services2{
-    display: flex;
-    margin-bottom: 3%;
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
-.mode {
-    margin-left: 0%;
-    font-size: 20px;
-    background-color: #A76F51;
-    margin-bottom: 20px;
-    padding-left: 3%;
-    
+// s
+
+#img1 {
+  background-image: url("../assets/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  width: 100%;
+
+  height: 400px;
 }
-h4{
-    background-color: #C7815C;
-    margin-bottom: 20px;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    
+
+#img2 {
+  background-image: url("../assets/images/header_contact.jpeg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  width: 100%;
+
+  height: 400px;
 }
 
 
-.mission1 {
-    background-color: #C7815C;
-    padding: 10px;
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
   }
-  
-  .titremission1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  to {
+    opacity: 1;
   }
-  
-  .titre1{
-    margin-right: 20px;
-    font-size: 15px;
+}
+
+/**** Tabs */////
+
+.titre-service {
+  text-align: center;
+  padding: 5%;
+}
+
+.titre-service h1 {
+
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: var(--couleur-police);
+}
+
+
+/************contenaire option************************************/
+
+
+.option {
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: var(--bleu-secondaire);
+  margin-bottom: 55px;
+
+
+}
+
+
+/****************************tabs*******************************/
+
+
+
+.button-mode {
+  display: flex;
+  width: 100%;
+
+
+}
+
+.button-mode button {
+  width: 100%;
+  padding: 1em;
+}
+
+.button-mode div {
+  width: 100%;
+}
+
+
+.w2-bar-item {
+  background-color: var(--couleur-secondaire);
+  color: var(--bleu-tertiaire);
+  border: none;
+  cursor: pointer;
+
+}
+
+.nw2-bar-item {
+  background-color: var(--bleu-tertiaire);
+  color: var(--couleur-police);
+  border: none;
+  cursor: pointer;
+
+}
+
+
+
+
+
+/******************************************livraison****************************/
+
+
+#nos-services {
+  width: 100%;
+}
+
+.livraison {
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: var(--bleu-tertiaire);
+}
+
+.livraison p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/************************************************paiment*************************************/
+
+.paiement {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: var(--bleu-tertiaire);
+
+}
+
+.titreh31,
+.titreh32,
+.titreh33 {
+  padding: 25px;
+
+}
+
+.fois {
+  border: 2px solid var(--couleur-police);
+  border-radius: 50%;
+  background-color: var(--couleur-principale);
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+  padding: 3%;
+
+}
+
+.carte {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.paypal {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+
+}
+
+
+
+
+.picture {
+  display:flex;
+  justify-content:center;
+  width: 100%;
+  padding-top: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.picture img {
+  width: 363px;
+  height: 333px;
+}
+
+@media (min-width:1100px){
+
+#footer{
+  position: relative;
+}
+
+#footer-contact{
+  position: absolute;
+  right: 5%;
+}
+
+
+
+}
+@media (min-width:1100px) {
+
+
+
+
+  .livraison,
+  .paiement {
+
+      flex-direction: row;
   }
+
+  .button-mode {
+
+      width: 45%;
+
+
+  }
+
+  .text-livraison, .pay {
+      width: 60%;
+      margin-top: 3%;
+      margin-left: 5%;
+  }
+
+  .picture img {
+      
+      width: 571px;
+  height: 546px;
  
-   
-  .image3{
-    text-align: left;
   }
+  .picture{
+      width: 48%;
+      padding-top: 0;
   
- 
- 
-  
-  .livraison1 {
-    margin-top: 20px;
-    position: relative;
-    height: 40%;
+      padding-bottom: 0;
   }
-  
-  ul {
-    padding: 0;
-    margin: 3;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-    position: relative;
-  }
-  .mode2{
-    font-size: 20px;
-    margin-bottom: 5%;
-    text-align: center;
-    background-color: white;
-  }
-  .services21{
-    display: flex;
-    margin-bottom: 3%;
-  }
-
-  .mode1{
-    margin-left: 0%;
-    font-size: 20px;
-    background-color: #C7815C;
-    margin-bottom: 20px;
-    padding-left: 3%;
-    
-}
-.mode3{
-    margin-left: 0%;
-    background-color: #A76F51;
-    margin-bottom: 20px;
-    padding-right: 3%;
-    padding-bottom: 3%;
 }
 
-.lesservi{
-    display: flex;
-    align-items: center;
-}
-.banque{
-    font-size: 15px;
-}
-.alert{
-    margin-left: 10px;
-    margin-right: 5px;
-    height: 30px;
-    
-}
-.carte{
-    margin-left: 50%;
-    
-}
 
