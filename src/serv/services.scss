@@ -1,90 +1,91 @@
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  height: 400px;
-  overflow: hidden;
+h3{
+  font-size: 20px;
+  margin-bottom: 5%;
 }
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.services2{
+  display: flex;
+  margin-bottom: 3%;
 }
-// s
-
-#img1 {
-  background-image: url("../assets/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg");
-
-  background-size: cover;
-
-  background-position: center;
-
-  width: 100%;
-
-  height: 400px;
+.mode {
+  margin-left: 0%;
+  font-size: 20px;
+  background-color: #A76F51;
+  margin-bottom: 20px;
+  padding-left: 3%;
+  
 }
-h4 {
-  background-color: #c7815c;
+h4{
+  background-color: #C7815C;
   padding-right: 3%;
   padding-bottom: 3%;
+  
 }
 
-.titre-service h3 {
-  text-align: center;
-  padding: 5%;
-  font-size: 20px;
-  line-height: 39px;
+
+.titre-service h3{
+text-align: center;
+padding: 5%;
+font-size: 20px;
+line-height: 39px;
 }
 
 /************contenaire option************************************/
 .option {
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 55px;
+margin-left: 25px;
+margin-right: 25px;
+margin-bottom: 55px;
 }
 
 /****************************tabs*******************************/
 .button-mode {
-  display: flex;
-  width: 50%;
+display: flex;
+width: 50%;
 }
 .button-mode button {
-  width: 100%;
-  padding: 1em;
+width: 100%;
+padding: 1em;
 }
 .button-mode div {
-  width: 100%;
+width: 100%;
 }
 
 .w2-bar-item {
-  background: #c7815c;
-  border: none;
-  cursor: pointer;
+background: #C7815C;
+border: none;
+cursor: pointer;
 }
 
 .nw2-bar-item {
-  background: #a76f51;
-  border: none;
-  cursor: pointer;
+background: #A76F51;
+border: none;
+cursor: pointer;
 }
-/******************************************livraison****************************/
+
 #nos-services {
-  width: 100%;
-  background-color: #c7815c;
+width: 100%;
+background-color: #C7815C;
+
 }
 
 .livraison {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  background-color: var(--bleu-tertiaire);
-  padding: 20px 40px;
+
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+background-color: var(--bleu-tertiaire);
+padding: 20px 40px;
 }
 
-/************************************************paiment*************************************/
+
+
+
+
 
 .photo2 {
-  overflow: hidden;
+overflow: hidden;
 }
+
+
 
 ul {
   padding: 0;
@@ -96,164 +97,185 @@ ul li {
   position: relative;
 }
 
-#caroussel {
+
+#caroussel{
   overflow: auto;
 }
-.image2 {
+.image2{
   display: flex;
   animation-duration: 10s;
   animation-name: harry;
   animation-iteration-count: infinite;
+  
 }
 
 @keyframes harry {
-  0% {
-    transform: translateX(0);
+  0%{
+      transform: translateX(0);
   }
-  50% {
-    transform: translateX(-1460px);
+  50%{
+      transform: translateX(-1460px);
   }
-  100% {
-    transform: translateX(0);
+  100%{
+      transform: translateX(0);
   }
-}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+display: none;
 }
 // s
 
 #img1 {
-  background-image: url("../assets/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg");
+background-image: url("../assets/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg");
 
-  background-size: cover;
+background-size: cover;
 
-  background-position: center;
+background-position: center;
 
-  width: 100%;
+width: 100%;
 
-  height: 400px;
+height: 400px;
 }
 
 #img2 {
-  background-image: url("../assets/images/header_contact.jpeg");
+background-image: url("../assets/images/header_contact.jpeg");
 
-  background-size: cover;
+background-size: cover;
 
-  background-position: center;
+background-position: center;
 
-  width: 100%;
+width: 100%;
 
-  height: 400px;
+height: 400px;
 }
+
 
 /* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+right: 0;
+border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+background-color: rgba(0, 0, 0, 0.8);
 }
 
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+from {
+  opacity: 0.4;
 }
+to {
+  opacity: 1;
+}
+}
+
 
 /* tab */
 
 .tab {
-  overflow: hidden;
-  width: 30%;
-  display: flex;
+overflow: hidden;
+width: 30%;
+display: flex;
 }
 
 .tab button {
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  width: 300px;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+width: 300px;
 }
 
 .btnliv {
-  background-color: #a76f51;
+background-color:#A76F51;
 }
 
 .btnpai {
-  background-color: #c7815c;
+background-color:#C7815C;
 }
 
 .tab button:hover {
-  background-color: #ddd;
+background-color: #ddd;
 }
 
 .tab button.active {
-  background-color: #ccc;
+background-color: #ccc;
 }
 
 /*  +++++++++++++++++++++++++++++++ */
 
+
+
 .tabcontent {
-  background-color: #a76f51;
-  display: flex;
-  height: 300px;
-  img {
-    justify-content: end;
-    width: 50%;
-  }
+background-color: #A76F51;
+display: flex;
+height: 300px;
+img {
+  justify-content: end;
+  width: 50%;
+}
 }
 
 .items {
-  width: 50%;
+width: 50%;
 }
 
 .container {
-  display: flex;
-  font-size: 30px;
-  justify-content: space-between;
-  flex-direction: column;
+display: flex;
+font-size: 30px;
+justify-content: space-between;
+flex-direction: column;
 }
 
 .icon {
-  margin-right: 10px;
+margin-right: 10px;
 }
 
 .test {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 10px 30px 10px;
+display: flex;
+justify-content: space-between;
+padding: 30px 10px 30px 10px;
 }
