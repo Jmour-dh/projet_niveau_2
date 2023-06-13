@@ -1,7 +1,6 @@
 h3{
     font-size: 20px;
     margin-bottom: 5%;
-    text-align: center;
 }
 .services2{
     display: flex;
@@ -17,60 +16,74 @@ h3{
 }
 h4{
     background-color: #C7815C;
-    margin-bottom: 20px;
     padding-right: 3%;
     padding-bottom: 3%;
     
 }
 
 
-#option {
-  margin-left: 25px;
-  margin-right: 25px;
-  background-color: var(--bleu-secondaire);
-  margin-bottom: 55px;
- }
-
-
- .button-mode {
-  display: flex;
-  width: 100%;
-
-
+.titre-service h3{
+  text-align: center;
+  padding: 5%;
+  font-size: 20px;
+  line-height: 39px;
 }
 
+/************contenaire option************************************/
+.option {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 55px;
+}
+
+/****************************tabs*******************************/
+.button-mode {
+  display: flex;
+  width: 50%;
+}
 .button-mode button {
   width: 100%;
   padding: 1em;
 }
-
-#button-mode div {
+.button-mode div {
   width: 100%;
 }
 
-
-#w2-bar-item {
-  background-color: #A76F51;
-  color: var(--bleu-tertiaire);
+.w2-bar-item {
+  background: #C7815C;
   border: none;
   cursor: pointer;
-
 }
 
-#nw2-bar-item {
-  background-color: #A76F51;
-  color: var(--couleur-police);
+.nw2-bar-item {
+  background: #A76F51;
   border: none;
   cursor: pointer;
+}
+/******************************************livraison****************************/
+#nos-services {
+  width: 100%;
+  background-color: #C7815C;
+  
+}
 
+.livraison {
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: var(--bleu-tertiaire);
+  padding: 20px 40px;
 }
 
 
 
+/************************************************paiment*************************************/
 
-
-
-
+  
+.photo2 {
+  overflow: hidden;
+}
 
 
   
@@ -93,6 +106,7 @@ h4{
     animation-duration: 10s;
     animation-name: harry;
     animation-iteration-count: infinite;
+    
 }
 
 @keyframes harry {
@@ -201,8 +215,8 @@ h4{
 
 .tab {
   overflow: hidden;
- 
   width: 30%;
+  display: flex;
 }
 
 .tab button {
