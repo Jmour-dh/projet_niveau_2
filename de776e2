@@ -1,0 +1,68 @@
+[33mde776e2[m[33m ([m[1;36mHEAD -> [m[1;32mDhia[m[33m, [m[1;31morigin/Dhia[m[33m)[m HEAD@{0}: commit: fin
+[33m8e47936[m[33m ([m[1;32mmain[m[33m)[m HEAD@{1}: checkout: moving from main to Dhia
+[33m8e47936[m[33m ([m[1;32mmain[m[33m)[m HEAD@{2}: pull origin Dhia: Fast-forward
+[33m9e97d18[m HEAD@{3}: checkout: moving from Dhia to main
+[33m8e47936[m[33m ([m[1;32mmain[m[33m)[m HEAD@{4}: commit: last
+[33m6abbd88[m HEAD@{5}: commit: test3
+[33m29ea248[m HEAD@{6}: commit: page prduits respensive
+[33m62cb357[m HEAD@{7}: merge main: Merge made by the 'ort' strategy.
+[33mbcc9058[m HEAD@{8}: checkout: moving from main to Dhia
+[33m9e97d18[m HEAD@{9}: pull origin: Fast-forward
+[33m330b6ae[m HEAD@{10}: checkout: moving from Dhia to main
+[33mbcc9058[m HEAD@{11}: commit: dd
+[33m330b6ae[m HEAD@{12}: checkout: moving from Harry to Dhia
+[33mbefa582[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{13}: checkout: moving from Dhia to Harry
+[33m330b6ae[m HEAD@{14}: checkout: moving from dhia to Dhia
+[33m330b6ae[m HEAD@{15}: checkout: moving from main to dhia
+[33m330b6ae[m HEAD@{16}: checkout: moving from Dhia to main
+[33m330b6ae[m HEAD@{17}: checkout: moving from main to Dhia
+[33m330b6ae[m HEAD@{18}: pull origin Dhia: Fast-forward
+[33m0f0455f[m HEAD@{19}: checkout: moving from Dhia to main
+[33m330b6ae[m HEAD@{20}: commit: respensive1
+[33mc91c2f3[m HEAD@{21}: commit: page chargement
+[33m1becf91[m HEAD@{22}: commit: page paniervide
+[33mbccc4ec[m HEAD@{23}: commit: page panier
+[33m1f3f920[m HEAD@{24}: commit: 1ere pas panier
+[33m0f0455f[m HEAD@{25}: checkout: moving from main to Dhia
+[33m0f0455f[m HEAD@{26}: checkout: moving from main to main
+[33m0f0455f[m HEAD@{27}: checkout: moving from main to main
+[33m0f0455f[m HEAD@{28}: pull origin Dhia: Fast-forward
+[33m55bbf8a[m HEAD@{29}: checkout: moving from Dhia to main
+[33m0f0455f[m HEAD@{30}: commit: page produits
+[33m5a0fb21[m HEAD@{31}: commit: modif 5
+[33m2a7122a[m HEAD@{32}: commit: modif filter
+[33m2dd9d0f[m HEAD@{33}: commit: add produits
+[33md49bbb3[m HEAD@{34}: commit: modif2 insp
+[33m55bbf8a[m HEAD@{35}: pull origin main: Fast-forward
+[33mfe392cc[m HEAD@{36}: checkout: moving from main to Dhia
+[33m55bbf8a[m HEAD@{37}: commit: page insp
+[33mfe392cc[m HEAD@{38}: pull origin Dhia: Fast-forward
+[33me23258d[m HEAD@{39}: checkout: moving from Dhia to main
+[33mfe392cc[m HEAD@{40}: commit: 5eme commit
+[33ma701062[m HEAD@{41}: commit: 4éme commit
+[33mdb7b082[m HEAD@{42}: commit: 3éme commit
+[33m59ef470[m HEAD@{43}: commit: test
+[33me23258d[m HEAD@{44}: checkout: moving from Dhia to Dhia
+[33me23258d[m HEAD@{45}: checkout: moving from main to Dhia
+[33me23258d[m HEAD@{46}: commit: second commit
+[33mbc43287[m HEAD@{47}: commit: test
+[33mc4182c7[m HEAD@{48}: reset: moving to HEAD
+[33mc4182c7[m HEAD@{49}: reset: moving to HEAD~1
+[33m487bb1c[m HEAD@{50}: commit: test
+[33mc4182c7[m HEAD@{51}: reset: moving to HEAD
+[33mc4182c7[m HEAD@{52}: Branch: renamed refs/heads/main to refs/heads/main
+[33mc4182c7[m HEAD@{54}: commit: first commit
+[33m29f7839[m HEAD@{55}: reset: moving to HEAD
+[33m29f7839[m HEAD@{56}: Branch: renamed refs/heads/main to refs/heads/main
+[33m29f7839[m HEAD@{58}: commit: first commit
+[33m1d38afe[m HEAD@{59}: Branch: renamed refs/heads/main to refs/heads/main
+[33m1d38afe[m HEAD@{61}: Branch: renamed refs/heads/main to refs/heads/main
+[33m1d38afe[m HEAD@{63}: commit: first commit
+[33m585eeba[m HEAD@{64}: Branch: renamed refs/heads/main to refs/heads/main
+[33m585eeba[m HEAD@{66}: commit: deuxieme commit
+[33ma82c413[m HEAD@{67}: Branch: renamed refs/heads/Dhia to refs/heads/main
+[33ma82c413[m HEAD@{69}: commit: first commit
+[33mbefa582[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{70}: checkout: moving from Harry to Dhia
+[33mbefa582[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{71}: checkout: moving from Dhia to Harry
+[33mbefa582[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{72}: checkout: moving from master to Dhia
+[33mbefa582[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{73}: commit (initial): Initial commit
