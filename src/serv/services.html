@@ -37,117 +37,145 @@
       </a>
     </header>
 
-    <!--carroussel-->
+    <img src="../assets/images/header_contact (1).jpeg" alt="">
+   
+    
 
-    <div class="slideshow-container">
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade" id="img1"></div>
-      <div class="mySlides fade" id="img2"></div>
-      <!-- Next and previous buttons -->
-      <a class="prev" id="btn-prev">&#10094;</a>
-      <a class="next" id="btn-next">&#10095;</a>
-    </div>
-    <div class="titre-service">
-      <h1>Nos services</h1>
-    </div>
 
-    <section class="option">
-      <div id="nos-services" class="Mode">
-        <div class="button-mode">
-          <div>
-            <button
-              class="nw2-bar-item w2-button"
-              onclick="openMode('nos-services')"
-            >
-              Nos services de livraison
-            </button>
+    
+
+          <div class="titre-service">
+            <h3>Nos services</h3>
           </div>
-
-          <div>
-            <button
-              class="w2-bar-item w2-button"
-              onclick="openMode('nos-modes' )"
-            >
-              Nos modes de paiement
-            </button>
-          </div>
-        </div>
-
-        <div class="livraison">
-          <div class="text-livraison">
-            <h3>Petits colis:</h3>
-            <p>Chronopost (articles de moins de 12,5kg)9.90 €</p>
-            <h3>Livraison domicile par transporteur :</h3>
-            <p>9€ pour un achat inférieur à 400€</p>
-            <p>59€ pour un achat​​ supérieur à 400€ et inférieur à 1000€</p>
-            <p>109€ pour un achat supérieur à 1000€</p>
-          </div>
-
-          <div class="picture">
-            <img src="images/services-camion.jpeg" />
-          </div>
-        </div>
-      </div>
-
-      <div id="nos-modes" class="Mode" style="display: none">
-        <div class="button-mode">
-          <div>
-            <button
-              class="w2-bar-item w2-button"
-              onclick="openMode('nos-services' )"
-            >
-              Nos services de livraison
-            </button>
-          </div>
-
-          <div>
-            <button
-              class="nw2-bar-item w2-button"
-              onclick="openMode('nos-modes' )"
-            >
-              Nos modes de paiement
-            </button>
-          </div>
-        </div>
-
-        <div class="paiement">
-          <div class="pay">
-            <div class="titreh31">
-              <h3>Paiement par carte bancaire</h3>
-            </div>
-
-            <div class="carte">
-              <img src="images/🦆 icon _credit card_.svg" />
-
-              <img src="images/🦆 icon _credit card_2.svg" />
-
-              <img src="images/🦆 icon _credit card thin_.svg" />
-            </div>
-
-            <div class="titreh32">
-              <h3>Paiment par PayPal</h3>
-            </div>
-
-            <div class="paypal">
-              <img src="images/🦆 icon _paypal thin_.svg" />
-            </div>
-
-            <div class="titreh33">
-              <h3>Paiement 4x sans frais</h3>
-            </div>
-            <div>
-              <div class="fois">
-                <p>4x fois sans frais par cb</p>
+      
+          <section class="option">
+            <div id="nos-services" class="Mode">
+              <div class="button-mode">
+                <div>
+                  <button
+                    class="nw2-bar-item w2-button"
+                    onclick="openMode('nos-services')"
+                  >
+                    Nos services de livraison
+                  </button>
+                </div>
+      
+                <div>
+                  <button
+                    class="w2-bar-item w2-button"
+                    onclick="openMode('nos-modes' )"
+                  >
+                    Nos modes de paiement
+                  </button>
+                </div>
+              </div>
+      
+              <div class="livraison">
+                <div class="text-livraison">
+                  <h3 class="colis3">Petits colis:</h3>
+                  <p>Chronopost (articles de moins de 12,5kg)9.90 €</p>
+                  <h3>Livraison domicile par transporteur :</h3>
+                  <p>9€ pour un achat inférieur à 400€</p>
+                  <p>59€ pour un achat supérieur à 400€ et inférieur à 1000€</p>
+                  <p>109€ pour un achat supérieur à 1000€</p>
+                </div>
+      
+                <div class="photo2">
+                  <img src="../assets/images/img-services.jpeg" />
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="picture">
-            <img src="images/services-carte bleu.jpg" alt="carte bleu" />
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="caroussel">
+      <div class="image2" >
+          <div class="image1"><img src="../assets/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg" alt="burger1"></div>
+          <div class="image2"></div><img src="../assets/images/header_contact (1).jpeg" alt="burger2"></div>
+      </div>
+  </div>
+
+
+
+
+    
+  <h4 class="title mode1" style="background-color: white;" >Nos services</h4>
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks btnliv" id="livraison" onclick="openTab('livraison-content')">
+      Nos services de livraison
+    </button>
+    <button class="tablinks btnpai" id="paiement" onclick="openTab('paiement-content')">
+      Nos modes de paiment
+    </button>
+  </div>
+  
+  <!-- Tab content -->
+  
+    <div id="livraison-content" class="tabcontent">
+      <div class="items">
+        <div class="container">
+          <div class="test">
+            <p>Paiement par carte bancaire</p>
+            <div class="icon">
+              <i class="fa-solid fa-credit-card icon" style="font-size:48px"></i>
+              <i class="fa-brands fa-cc-mastercard" style="font-size:48px" ></i>
+              <i class="fa-brands fa-cc-visa" style="font-size:48px" ></i>
+            </div>
           </div>
+          <div class="test">
+            <p>Paiement par Paypal</p>
+            <div class="icon">
+              <i class="fa fa-paypal" style="font-size:40px;"></i>
+            </div>
+          </div>
+          <div class="test">
+            <p>Paiement 4x sans frais</p>
+            <i class="fa fa-credit-card" style="font-size:48px;color:red"></i>
+            <div class="icon">
+              
+            </div>
+          </div>
+          
         </div>
       </div>
-    </section>
+      
+      <img src="../assets/images/markus-winkler-ahjzVINkuCs-unsplash.jpg" >
+    </div>
+    
+
+
+
+
+
+
+
+
+
 
     <footer>
       <div class="foot">
@@ -165,7 +193,6 @@
       </div>
     </footer>
   </body>
-  <script src="./services.js"></script>
   <script>
     function openMode(ModeName) {
 

@@ -4,14 +4,8 @@
 padding-left: 1%;
 }
 
-.ecriture2{
-    background: #CB997E;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 0%;
-  }
   h1{
-    font-size: 60px;
+    font-size: 30px;
     margin-bottom: 5%;
   }
   h2{
@@ -24,7 +18,10 @@ h3{
 
 .contact-form-container{
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    width: 100%;
+    background-color: #CB997E;
+    height: 20%;
     
 }
 
@@ -32,6 +29,7 @@ h3{
 text-align: right;
 padding-right: 10%;
 display: block;
+background-color: #CB997E;
 }
 h5{
  position: relative;
@@ -39,9 +37,6 @@ h5{
  font-size: 15px;
 }
 
-body{
-    background-color: #CB997E;
-}
 
 label{
   padding-right: 2%;
@@ -98,5 +93,10 @@ input{
    .map, .map1 {
     flex: 1;
     padding: 20px;
+   }
+
+
+   .format{
+    display: flex;
    }
 
